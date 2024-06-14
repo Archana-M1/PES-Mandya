@@ -1,0 +1,27 @@
+p {
+    width: 80px;
+    height: 30vh;
+    border: 1px solid black;
+
+    padding: 30px;
+    /* flex-direction: row-reverse; */
+}
+
+div {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.class1 {
+    background-color: blueviolet;
+}
+
+.class2 {
+    background-color: rgb(43, 226, 61);
+}
+
+.class3 {
+    background-color: rgb(226, 95, 43);
+}
