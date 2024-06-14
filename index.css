@@ -1,0 +1,74 @@
+/* Font Properties  */
+/* p {
+    font-size: 40px;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+} */
+
+/* Text Properties  */
+/* p {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-indent: 200px;
+    text-shadow: 10px 10px 3px red;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    color: rgb(50, 42, 165);
+    line-height: 160px;
+    word-spacing: 100px;
+    letter-spacing: 100px;
+
+} */
+
+/* Background Properties  */
+/* body { */
+/* background-color: aqua; */
+/* background-image: linear-gradient(to left, red, blue); */
+/* background-image: url('/i.png'); */
+/* background-repeat: no-repeat; */
+/* background-repeat: repeat-x; */
+/* background-repeat: repeat-y; */
+/* background-size: cover; */
+/* background-image: radial-gradient(red, yellow, blue); */
+/* } */
+
+p {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    color: white;
+}
+
+.class1 {
+    background-color: brown;
+    position: relative;
+    left: 200px;
+}
+
+.class2 {
+    background-color: rgb(50, 165, 42);
+    position: absolute;
+    left: 20px;
+}
+
+.class3 {
+    background-color: rgb(220, 224, 14);
+    position: fixed;
+    top: 0;
+}
+
+.class4 {
+    background-color: rgb(250, 7, 7);
+    position: sticky;
+    top: 30px;
+}
+
+.class5 {
+    background-color: rgb(244, 15, 195);
+    position: static;
+}

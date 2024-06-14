@@ -1,0 +1,91 @@
+body {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.866), rgba(0, 0, 255, 0.827));
+    /* height: 50vh;
+    width: 500px; */
+}
+
+
+input {
+    width: 100px;
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#username {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-self: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 30px;
+    height: 30px;
+    width: 50px;
+}
+
+#password {
+
+    height: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+#name {
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    width: 120px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#pss {
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    width: 120px;
+    text-align: center;
+}
+
+#login {
+    border-radius: 30px;
+    margin-left: 120px;
+    margin-right: 50%;
+    margin-top: 15px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: black;
+}
+
+.class1 {
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 100px;
+    background-color: black;
+}
+
+#logo {
+    display: flex;
+    width: 80px;
+    height: 20px;
+    margin-left: 110px;
+    margin-top: 25px;
+
+}
+
+img {
+    margin-left: 10px;
+}
