@@ -1,0 +1,17 @@
+let num = 77;
+let flag = 1;
+if (num == 1) {
+    console.log("Unique Number");
+}
+for (let i = 2; i <= num / 2; i++) {
+    if (num % i == 0) {
+        flag = 0;
+    }
+}
+if (num != 1) {
+    if (flag == 0) {
+        console.log("Non Prime");
+    }
+    else
+        console.log("Prime Number");
+}
